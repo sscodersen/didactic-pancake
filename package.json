@@ -1,36 +1,43 @@
 {
-  "name": "onborda",
-  "version": "1.2.2",
-  "description": "An onboarding wizard for Next.js",
-  "license": "MIT",
-  "author": "Matt Litherland",
-  "homepage": "https://github.com/uixmat/onborda#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/uixmat/onborda.git"
-  },
-  "keywords": [
-    "react-onboarding",
-    "react-onborda",
-    "onboarding",
-    "onborda",
-    "wizard",
-    "react"
-  ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "name": "onborda-docs",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "build": "tsc --project tsconfig.json",
-    "start": "npm run build && node dist/index.js"
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
   },
-  "peerDependencies": {
-    "framer-motion": ">=11",
-    "react-dom": ">=18",
-    "react": ">=18",
-    "next": ">=13"
+  "dependencies": {
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@types/canvas-confetti": "^1.6.4",
+    "@vercel/analytics": "^1.2.2",
+    "canvas-confetti": "^1.9.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.8",
+    "fumadocs-core": "^10.0.4",
+    "fumadocs-mdx": "^8.2.3",
+    "fumadocs-ui": "^10.0.4",
+    "highlight.js": "^11.9.0",
+    "lucide-react": "^0.354.0",
+    "next": "^14.1.2",
+    "next-themes": "^0.2.1",
+    "onborda": "^1.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@types/react": "^18.2.63",
-    "typescript": "^5.3.3"
+    "@types/mdx": "^2.0.11",
+    "@types/node": "20.11.25",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.2"
   }
 }
